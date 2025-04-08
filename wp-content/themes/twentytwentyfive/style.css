@@ -15,12 +15,13 @@ Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, feature
 */
 
 /*
- * Link styles
+ * Link styles (add by outdoorsavannah: make all links blue)
  * https://github.com/WordPress/gutenberg/issues/42319
  */
 a {
 	text-decoration-thickness: 1px !important;
 	text-underline-offset: .1em;
+	color: #2B6CB0;
 }
 
 /* Focus styles */
@@ -59,3 +60,13 @@ h1, h2, h3, h4, h5, h6, blockquote, caption, figcaption, p {
 .more-link {
 	display: block;
 }
+
+/* Entire site is this font */
+body {
+  font-family: "Hind", sans-serif; /* Apply to all body text */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Hind", sans-serif; /* Apply to all headings */
+}
+
